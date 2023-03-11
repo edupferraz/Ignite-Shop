@@ -3,6 +3,12 @@ const nextConfig = {
   reactStrictMode: true,
   setMinify: true,
 
+  images: {
+    domains: [
+      'files.stripe.com'
+    ]
+  },
+
   experimental: {
     images: {
       allowFutureImage: true
